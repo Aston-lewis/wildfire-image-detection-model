@@ -131,6 +131,14 @@ Check `train.py` for the exact checkpoint path and filename.
 
 Use `predict.py` to classify an image using the trained model.
 
+To check if you model has been trained you can run this 
+
+```bash
+python predict.py images/wild.png
+```
+
+to run your own file do this 
+
 ```bash
 python predict.py /path/to/your/image.jpg
 ```
