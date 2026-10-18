@@ -1,0 +1,22 @@
+#dataset 
+dataset/
+
+.venv/
+
+wildfire_cnn/
+
+wildfire_cnn.pth
+
+
+
+# Other generated files
+__pycache__/
+*.py[cod]
+
+# ZIP archives
+kaggle.zip
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
